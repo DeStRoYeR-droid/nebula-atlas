@@ -9,14 +9,7 @@ The site is fully static and is deployed to **GitHub Pages**. A small local
 **FastAPI** admin edits the data file and turns full-resolution NASA/ESA images
 into web-sized versions.
 
-```
-┌──────────────────────┐   writes    ┌───────────────────────────┐   fetch()   ┌──────────────────────────┐
-│ Admin (FastAPI +     │ ──────────▶ │ frontend/public/data/      │ ──────────▶ │ Website (React +          │
-│ Tailwind), local only│             │   nebulae.json             │             │ Tailwind + Motion)        │
-│ + image pipeline     │ ──────────▶ │ frontend/public/images/…   │             │ View 1: sliding puzzle    │
-└──────────────────────┘             └───────────────────────────┘             │ View 2: descriptive list  │
-                                                                                └──────────────────────────┘
-```
+![Architecture image](/nebula-atlas-architecture.png)
 
 ---
 
