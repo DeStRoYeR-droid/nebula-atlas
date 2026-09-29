@@ -19,7 +19,25 @@
       "image_alt": "Hubble mosaic of the Orion Nebula: glowing clouds of red, orange and blue-green gas around a bright, crowded core of young stars.",
       "credits": "NASA, ESA, M. Robberto (STScI/ESA) and the Hubble Space Telescope Orion Treasury Project Team",
       "source_url": "https://cdn.esahubble.org/archives/images/publicationjpg/heic0601a.jpg",
-      "source_page": "https://esahubble.org/images/heic0601a/"
+      "source_page": "https://esahubble.org/images/heic0601a/",
+      "image": {
+        "width": 2560,
+        "height": 2560,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADQBQCdASoYABgAPt1orFEopaQiqAgBEBuJYgC/aoM20CFoy+N+1GpwbgEnvYO1zqA5LucMkv6AAP70MqOllI/0VbgfD0VK8vRlUsjGZWhsVngbcQal12ULQVfIEl/CVcwWbCwOS8mlgVzKIFehSaG1l3XccztJzLX5oedKwHDbowVXsvMvlaWxr6AAAA==",
+        "color": "#493435"
+      }
     },
     {
       "id": "carina",
@@ -40,7 +58,25 @@
       "image_alt": "Wide Hubble panorama of the Carina Nebula: towering orange and brown ridges of dust and gas against glowing blue clouds, sprinkled with bright stars.",
       "credits": "NASA, ESA, N. Smith (University of California, Berkeley) and the Hubble Heritage Team (STScI/AURA)",
       "source_url": "https://cdn.esahubble.org/archives/images/publicationjpg/heic0707a.jpg",
-      "source_page": "https://esahubble.org/images/heic0707a/"
+      "source_page": "https://esahubble.org/images/heic0707a/",
+      "image": {
+        "width": 2560,
+        "height": 1240,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAwBACdASoYAAwAPt1cpkyopSOiMAgBEBuJbACdMoRwAB3fXIm4Op3SzAAA/oNIk0OTkEkl8yufaqGsrYPMxlOfzC82POdZK4cWqsgz25+4WlmHQm7oTj7J4tGu0vObUVTey1PlE7C0PRbEHGGcUNDyV8nloDWB9UXLusAM/HAAAA==",
+        "color": "#836a51"
+      }
     },
     {
       "id": "eagle",
@@ -61,7 +97,25 @@
       "image_alt": "The Pillars of Creation: three tall, dark columns of gas and dust rising through a glowing blue-green haze, their tips lit by nearby young stars.",
       "credits": "NASA, ESA/Hubble and the Hubble Heritage Team",
       "source_url": "https://cdn.esahubble.org/archives/images/publicationjpg/heic1501a.jpg",
-      "source_page": "https://esahubble.org/images/heic1501a/"
+      "source_page": "https://esahubble.org/images/heic1501a/",
+      "image": {
+        "width": 2560,
+        "height": 2670,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADQBACdASoXABgAPt1ipU8opaMiKA1REBuJZACsMoAA1MOOzO5Zl2hX6PispyJt4AD+6UKF9abviSQwhwp1r7k88rb83J+Pvs5in+chY09jK4Waij8bqnFEMKa6rjoZdd52HdyI5J3mEhg2roehYUtg8dyfrAWRPCbKsT2W7VSvHz0Q1m400RL+L6osNm3do0bpIX3kbTg25S06AAA=",
+        "color": "#515157"
+      }
     },
     {
       "id": "helix",
@@ -82,7 +136,25 @@
       "image_alt": "The Helix Nebula: a glowing ring of red and blue gas around a faint central star, resembling a giant eye, in a field of stars.",
       "credits": "ESO",
       "source_url": "https://cdn.eso.org/images/publicationjpg/eso0907a.jpg",
-      "source_page": "https://www.eso.org/public/images/eso0907a/"
+      "source_page": "https://www.eso.org/public/images/eso0907a/",
+      "image": {
+        "width": 2560,
+        "height": 2370,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAADQBACdASoYABYAPt1ipk6opaMiKA1REBuJZACo9BEdvDGw5SgBh2RwOXoRmDKDAAD+9Ci1F6P2V8J3mZQJU039pArWmGqGGfJeVab3IF7UUJAYG8VA/y8kZRWQYVfOVkEdHsW6D8GMCBtLAl4zQzO1SbHkHJGTOI4tgAAA",
+        "color": "#2d2926"
+      }
     },
     {
       "id": "crab",
@@ -102,7 +174,25 @@
       "image_alt": "The Crab Nebula: an oval cloud of tangled orange and red filaments surrounding a pale blue-white glow, the debris of an exploded star.",
       "credits": "NASA, ESA and Allison Loll/Jeff Hester (Arizona State University). Acknowledgement: Davide De Martin (ESA/Hubble)",
       "source_url": "https://cdn.esahubble.org/archives/images/large/heic0515a.jpg",
-      "source_page": "https://esahubble.org/images/heic0515a/"
+      "source_page": "https://esahubble.org/images/heic0515a/",
+      "image": {
+        "width": 2560,
+        "height": 2560,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAABwBQCdASoYABgAPt1WqEyopKQiMBgMARAbiWYAvmglwYGyy/7+hhqRk6Fdviffr+pMCCwAAP72icnuvBV9VaVGXRvBP2zwQZ4fRmAU/HzzqAaGlgtPlAu9M2UuXsJF9OQxzhPLiWOnl9aI1QXj44DT+et1u7ncE4CJT5saew+5Ucpkl91YeuZS8nXmts7LXYtqfhabIwtDZ7FyAUcp/DTws/Ifukk1W6YgcybMb8AAAA==",
+        "color": "#47493e"
+      }
     },
     {
       "id": "tarantula",
@@ -122,7 +212,25 @@
       "image_alt": "Webb infrared view of the Tarantula Nebula: a cavity of pale blue young stars at the centre, surrounded by wispy orange and brown filaments of gas and dust.",
       "credits": "NASA, ESA, CSA and STScI",
       "source_url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2212a.jpg",
-      "source_page": "https://esawebb.org/images/weic2212a/"
+      "source_page": "https://esawebb.org/images/weic2212a/",
+      "image": {
+        "width": 2560,
+        "height": 1480,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADQAwCdASoYAA4APt1cpkyopSOiMAgBEBuJQBOgAx0o2fcd5edzr4QA/uy+pC1P51DsXTo/H8cQAcKWCbD8ZoGgxM8sbvjTK3bwo20Kuj82H5Bt0pNbLn5wE8VTxWoPXPQVJI47AFyYuGhFjI5CFhbt/0FmgwAA",
+        "color": "#4b3a36"
+      }
     },
     {
       "id": "butterfly",
@@ -143,7 +251,25 @@
       "image_alt": "The Butterfly Nebula: two glowing, wing-shaped lobes of gas in rust, white and blue spreading out from a dark, dusty centre.",
       "credits": "NASA, ESA and the Hubble SM4 ERO Team",
       "source_url": "https://cdn.esahubble.org/archives/images/publicationjpg/heic0910h.jpg",
-      "source_page": "https://esahubble.org/images/heic0910h/"
+      "source_page": "https://esahubble.org/images/heic0910h/",
+      "image": {
+        "width": 2560,
+        "height": 2984,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADQBACdASoVABgAPtVYo0yoJSMiN/VYAQAaiWMAt7gQ8ASTeo4V0CGO3hu4eXqSAAD+9oesY7h2ptrq2bM0WdKHy92EGnzOeH4z6qlb0wX22KpcvgC0Rswzo/rTlXsAVwNB0QV9rRVeP4CPHH5cuYPlDb9J1tkMQUHEhAnlReAAAA==",
+        "color": "#2c211c"
+      }
     },
     {
       "id": "lagoon",
@@ -163,7 +289,25 @@
       "image_alt": "Hubble close-up of the heart of the Lagoon Nebula: billowing clouds of orange, pink and blue gas shaped by a bright young star.",
       "credits": "NASA, ESA, STScI",
       "source_url": "https://cdn.esahubble.org/archives/images/publicationjpg/heic1808a.jpg",
-      "source_page": "https://esahubble.org/images/heic1808a/"
+      "source_page": "https://esahubble.org/images/heic1808a/",
+      "image": {
+        "width": 2560,
+        "height": 3227,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAwBQCdASoTABgAPt1mq1EopSOiqAgBEBuJYgCdMt8AzhLn7TpxlOXRDVgLctNUXEy6kAD+zD9hzI4GjMkGC1gVz1+VkOdyJG16aMP1x+Kzn5Bhvg1fB0wNCHS+CUg/FGnqm7QevDbh/CaK5eTsZL3hioyEd/CBuiDxRShtb+DjEE7Pifiu81hbLaNu6vKN04o1L8jyHdpu6ZgjCAorVDmAAAA=",
+        "color": "#5b4f52"
+      }
     },
     {
       "id": "ring",
@@ -183,7 +327,25 @@
       "image_alt": "The Ring Nebula: a glowing oval ring with an orange-red outer edge and a blue-green interior, with a faint white dwarf at its centre.",
       "credits": "NASA, ESA and C. Robert O'Dell (Vanderbilt University)",
       "source_url": "https://cdn.esahubble.org/archives/images/large/heic1310a.jpg",
-      "source_page": "https://esahubble.org/images/heic1310a/"
+      "source_page": "https://esahubble.org/images/heic1310a/",
+      "image": {
+        "width": 2560,
+        "height": 2560,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACwBACdASoYABgAPt1gp04opaOiKA1REBuJbAC7ABEczFISetWBD4S2xYOXgpAAAP71aOwUX6yL3+fCj6s9UaI4opeA77kHej9dkqgb18EOQ4mXcFIMI0hfN1WRsXVAi5pK4puIUcG2RjS8Vfg12uGZNThItJ+58VlhiLUa1viV2I/8lQRQa+Yqpqe3wGsiD5cdRa8XCRAAAA==",
+        "color": "#352f26"
+      }
     },
     {
       "id": "veil",
@@ -204,7 +366,25 @@
       "image_alt": "A section of the Veil Nebula: delicate, twisted filaments of red, blue and green gas streaking across a dense field of stars.",
       "credits": "NASA, ESA and the Hubble Heritage Team",
       "source_url": "https://cdn.esahubble.org/archives/images/publicationjpg/heic1520a.jpg",
-      "source_page": "https://esahubble.org/images/heic1520a/"
+      "source_page": "https://esahubble.org/images/heic1520a/",
+      "image": {
+        "width": 2560,
+        "height": 1707,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABQBACdASoYABAAPt1apkyopSOiMAgBEBuJYgCw7YxY329scW681yG/+On8AP70I3536mfG2EBowEQ+I/3MTvD+wGSxnWu6s70t/mqZ5JnbfR9BqcY1Hqe0SchCj1wArEGOz47zYuR3XwqkeMBMTX4hKnrA4RcAPm/hQV/P1t/GrqXdrE8FVNX/pPpiB9+oPCJAAA==",
+        "color": "#3e3039"
+      }
     },
     {
       "id": "heart",
@@ -224,7 +404,25 @@
       "image_alt": "The central region of the Heart Nebula: glowing clouds of gas framing a cavity blown open by a cluster of bright young stars.",
       "credits": "T.A. Rector (University of Alaska Anchorage) and H. Schweiker (WIYN and NOIRLab/NSF/AURA)",
       "source_url": "https://noirlab.edu/public/media/archives/images/large/noao-ic1805.jpg",
-      "source_page": "https://noirlab.edu/public/images/noao-ic1805/"
+      "source_page": "https://noirlab.edu/public/images/noao-ic1805/",
+      "image": {
+        "width": 2560,
+        "height": 2577,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAADQBQCdASoYABgAPt1orFEopaQiqAgBEBuJbACdMuLHQBc6rHR5wUImmhr0xdVZekY7ujF4ezBwAP7w1KVAaXV88GzRWItYmaeFPRNrqMgIMmUGti3aJT2YQ1JNDY1/On5Le8fYkMfcskuCURG183pvAnmU3b1uH3ksSEFD+FDLJTgDCVet5g/+QyOujRreFGpEAAAA",
+        "color": "#552917"
+      }
     },
     {
       "id": "trifid",
@@ -244,7 +442,24 @@
       "image_alt": "The Trifid Nebula: a pink glowing cloud split into lobes by dark dust lanes, beside a blue reflection nebula, in a dense star field.",
       "credits": "ESO",
       "source_url": "https://cdn.eso.org/images/publicationjpg/eso0930a.jpg",
-      "source_page": "https://www.eso.org/public/images/eso0930a/"
+      "source_page": "https://www.eso.org/public/images/eso0930a/",
+      "image": {
+        "width": 1920,
+        "height": 3158,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAwBACdASoPABgAPt1cpkyopSOiMAgBEBuJYgCdMoADRn+CdgWOaDhzxAAA/uxBRSbZ2z1dvbABaDleYp2YgTQD/KsOMi/k2dEjHDKZ0vv71osbEs7WDoC+4bGotB2TPui6L9tSM3+81cZV1lcC6C/4f7f+W3jwTLhdgOz+LCjtMFaAAAA=",
+        "color": "#604b5b"
+      }
     },
     {
       "id": "omega",
@@ -265,7 +480,25 @@
       "image_alt": "The Omega Nebula: bright pink and white clouds of glowing gas streaked with dark dust, surrounded by stars.",
       "credits": "ESO",
       "source_url": "https://cdn.eso.org/images/large/eso0925a.jpg",
-      "source_page": "https://www.eso.org/public/images/eso0925a/"
+      "source_page": "https://www.eso.org/public/images/eso0925a/",
+      "image": {
+        "width": 2560,
+        "height": 2560,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAABwBQCdASoYABgAPt1mq1EopSOiqAgBEBuJQBOmarg4oaJBZlTIUURJd5Hwn397BV4FWp2AAP7xDgpo0Up0y5Q+yMHzS8gWQqIVoaOMTbm61DVLSW906/srb0CpFANz+Lg5qvdEpUHER+TWlHfl1FH9OP1ckAOix5CqOnEHYbMhX3iLc2EKxGdPfQzvEC309ntQ147S23KWOiPhrccRp8jBWx2NY9+EsduBAUD0gAA=",
+        "color": "#5e4a57"
+      }
     },
     {
       "id": "north-america",
@@ -285,7 +518,25 @@
       "image_alt": "Part of the North America Nebula: glowing clouds of gas crossed by dark, winding lanes of dust.",
       "credits": "T.A. Rector (University of Alaska Anchorage) and NOIRLab/NSF/AURA",
       "source_url": "https://noirlab.edu/public/media/archives/images/large/noao-ngc7000east.jpg",
-      "source_page": "https://noirlab.edu/public/images/noao-ngc7000east/"
+      "source_page": "https://noirlab.edu/public/images/noao-ngc7000east/",
+      "image": {
+        "width": 2560,
+        "height": 2251,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAABwBQCdASoYABUAPtlcqEyoJaQiMBgMAQAbCWgArDKDKQAktnccS+CgUXaVshVtFjBwKR4AAP7yxLUiQJY8jYrNiAf+GMvwWwGPwXw6ij8eeUZa3umgL0xfgIRJnLoo9fq7+pFa9cPblawx81kmMyA/lrSOsr1EPfGHjHxbPbclI2KEnqcrkAZPKFe8F8DRPFhrOTcNP48JoAr+UuAPajQm7D7UKwAA",
+        "color": "#76361f"
+      }
     },
     {
       "id": "rosette",
@@ -305,7 +556,25 @@
       "image_alt": "The Rosette Nebula: a round, flower-like cloud of glowing gas with a hollow centre containing a cluster of bright stars.",
       "credits": "N.A. Sharp/NOIRLab/NSF/AURA",
       "source_url": "https://noirlab.edu/public/media/archives/images/large/noao-rosette.jpg",
-      "source_page": "https://noirlab.edu/public/images/noao-rosette/"
+      "source_page": "https://noirlab.edu/public/images/noao-rosette/",
+      "image": {
+        "width": 2560,
+        "height": 2560,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRsoAAABXRUJQVlA4IL4AAACQBQCdASoYABgAPt1ipk6opaMiKA1REBuJbAAALtevA1gk6wOg+yGz+W9Fj9uCPwQ9tJVLAAD+7qvb3V3H5lVxWeBspgXoBHudOJ14dd0Nhu2Oc299g9V0RBc6FPhrtjUyDDO+ZTWVH6YfgwMpeazkAZkK6hALJB2I6wmkopVvRLdNR+8rtvaKuYMfeOOVT9ctAldkU+ds5v58+gohl2p2Cr+9DI8d32YsbmmPTuTLds4ryJ8JjocTi3hdgAAA",
+        "color": "#763f5b"
+      }
     },
     {
       "id": "crescent",
@@ -325,7 +594,25 @@
       "image_alt": "The Crescent Nebula: a glowing, egg-shaped shell of filament-like gas around a bright central star.",
       "credits": "T.A. Rector (NRAO/AUI/NSF and NOIRLab/NSF/AURA)",
       "source_url": "https://noirlab.edu/public/media/archives/images/large/noao-04494.jpg",
-      "source_page": "https://noirlab.edu/public/images/noao-04494/"
+      "source_page": "https://noirlab.edu/public/images/noao-04494/",
+      "image": {
+        "width": 2560,
+        "height": 2449,
+        "widths": [
+          320,
+          640,
+          960,
+          1280,
+          1920,
+          2560
+        ],
+        "formats": [
+          "avif",
+          "webp"
+        ],
+        "placeholder": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADQBACdASoYABcAPt1orVCopaQiqAgBEBuJYgCxHxgBqheyGkH2yB/ITrBfG5FaQAD+y8XKmbs53eTtulsuEEFtBnRZdErKUXaNWIUVoa4kqh+V4hAt86vqEjSjLqRQI2FdX/XPSreX5g/dEBp4a2sXzYV3Nc482pO5oSIXM0GAAA==",
+        "color": "#502c1e"
+      }
     }
   ]
 }
