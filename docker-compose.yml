@@ -1,0 +1,60 @@
+# Local development for Nebula Atlas.
+#
+#   docker compose up                    website (http://localhost:5173) + admin (http://localhost:8000)
+#   docker compose --profile preview up preview   production build served like GitHub Pages (http://localhost:4173)
+#   docker compose run --rm api python -m app.cli fetch-images   download the NASA/ESA images
+#
+# Ports are bound to 127.0.0.1 only: the admin has no login and must stay local.
+name: nebula-atlas
+
+services:
+  # React website with hot reload.
+  web:
+    build:
+      context: ./frontend
+      target: dev
+    ports:
+      - "127.0.0.1:5173:5173"
+    environment:
+      VITE_HOST: 0.0.0.0
+      VITE_SITE_URL: http://localhost:5173/
+      VITE_REPO_URL: ${VITE_REPO_URL:-}
+      VITE_CONTACT_EMAIL: ${VITE_CONTACT_EMAIL:-}
+      VITE_USE_POLLING: ${VITE_USE_POLLING:-false}
+    volumes:
+      - ./frontend:/app
+      - web_node_modules:/app/node_modules
+
+  # FastAPI admin: CRUD on frontend/public/data/nebulae.json + image processing.
+  api:
+    build:
+      context: ./backend
+      target: runtime
+    user: "${LOCAL_UID:-1000}:${LOCAL_GID:-1000}"
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload", "--reload-dir", "app"]
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      SITE_DIR: /site
+      ORIGINALS_DIR: /originals
+      MAX_UPLOAD_MB: ${MAX_UPLOAD_MB:-60}
+    volumes:
+      - ./frontend/public:/site
+      - ./media/originals:/originals
+      - ./backend/app:/app/app
+
+  # Production build served exactly like GitHub Pages (clean URLs, real 404 page).
+  preview:
+    profiles: ["preview"]
+    build:
+      context: ./frontend
+      target: preview
+      args:
+        VITE_SITE_URL: http://localhost:4173/
+        VITE_REPO_URL: ${VITE_REPO_URL:-}
+        VITE_CONTACT_EMAIL: ${VITE_CONTACT_EMAIL:-}
+    ports:
+      - "127.0.0.1:4173:4173"
+
+volumes:
+  web_node_modules:

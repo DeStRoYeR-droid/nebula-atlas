@@ -1,0 +1,401 @@
+@import 'tailwindcss';
+
+/* Dark mode follows the `dark` class on <html> (set before first paint). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Breakpoints: mobile < 640px, tablet 640–1024px, desktop 1024–1440px, large > 1440px */
+@theme {
+  --breakpoint-sm: 40rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 90rem;
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ---------------------------------------------------------------------------
+ * Design tokens. Every colour in the UI comes from here, so light and dark
+ * themes stay consistent and contrast is checked in one place.
+ * ------------------------------------------------------------------------- */
+:root {
+  --bg: #eef1f8;
+  --bg-elev: #ffffff;
+  --fg: #0b1224;
+  --fg-muted: #3d4863; /* 8.6:1 on --bg */
+  --fg-subtle: #4f5a75; /* 6.3:1 on --bg */
+  --line: rgb(15 23 42 / 0.12);
+  --glass: rgb(255 255 255 / 0.62);
+  --glass-strong: rgb(255 255 255 / 0.9);
+  --glass-border: rgb(15 23 42 / 0.1);
+  --glass-shadow: 0 8px 28px rgb(15 23 42 / 0.12);
+  --accent: #075985; /* 7.1:1 on white */
+  --accent-strong: #0369a1;
+  --on-accent: #ffffff;
+  --focus: #0369a1;
+  --skeleton: rgb(15 23 42 / 0.08);
+  --scrim: rgb(15 23 42 / 0.55);
+  --star: rgb(67 56 202 / 0.55);
+  --shooting-star: rgb(79 70 229 / 0.75);
+  --nebula-a: rgb(139 92 246 / 0.16);
+  --nebula-b: rgb(14 165 233 / 0.14);
+}
+
+.dark {
+  --bg: #05070f;
+  --bg-elev: #0b1122;
+  --fg: #f3f5fb;
+  --fg-muted: #b3bdd6; /* 11:1 on --bg */
+  --fg-subtle: #8f9abb; /* 7:1 on --bg */
+  --line: rgb(148 163 184 / 0.18);
+  --glass: rgb(15 22 45 / 0.5);
+  --glass-strong: rgb(7 11 26 / 0.84);
+  --glass-border: rgb(165 180 252 / 0.16);
+  --glass-shadow: 0 8px 32px rgb(0 0 0 / 0.35);
+  --accent: #7dd3fc; /* 12:1 on --bg */
+  --accent-strong: #38bdf8;
+  --on-accent: #04121d;
+  --focus: #7dd3fc;
+  --skeleton: rgb(148 163 184 / 0.12);
+  --scrim: rgb(2 4 10 / 0.78);
+  --star: rgb(255 255 255 / 0.9);
+  --shooting-star: rgb(255 255 255 / 0.95);
+  --nebula-a: rgb(124 58 237 / 0.2);
+  --nebula-b: rgb(14 116 144 / 0.18);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-elev: var(--bg-elev);
+  --color-fg: var(--fg);
+  --color-muted: var(--fg-muted);
+  --color-subtle: var(--fg-subtle);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-on-accent: var(--on-accent);
+  --color-skeleton: var(--skeleton);
+  --color-scrim: var(--scrim);
+}
+
+/* ---------------------------------------------------------------------------
+ * Glassmorphism (css.glass): translucent panel + backdrop blur + hairline border.
+ * ------------------------------------------------------------------------- */
+@utility glass {
+  background-color: var(--glass);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  backdrop-filter: blur(14px) saturate(140%);
+}
+
+@utility glass-strong {
+  background-color: var(--glass-strong);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+  backdrop-filter: blur(18px) saturate(150%);
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass,
+  .glass-strong {
+    background-color: var(--glass-strong);
+  }
+}
+
+@utility focus-ring {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------------------------
+ * Base
+ * ------------------------------------------------------------------------- */
+@layer base {
+  html {
+    background-color: var(--bg);
+    color: var(--fg);
+    scrollbar-gutter: stable;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    min-height: 100dvh;
+    background-color: var(--bg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+
+  [tabindex='-1']:focus {
+    outline: none;
+  }
+
+  ::selection {
+    background: var(--accent);
+    color: var(--on-accent);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Loading shell shown by index.html before JavaScript runs.
+ * ------------------------------------------------------------------------- */
+.boot {
+  display: flex;
+  min-height: 100dvh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: var(--fg-muted);
+  font-size: 0.875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.boot-logo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  background: radial-gradient(circle at 35% 35%, #c4b5fd, #7c3aed 45%, #0e7490 80%, transparent 82%);
+  animation: boot-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes boot-pulse {
+  50% {
+    opacity: 0.45;
+    transform: scale(0.92);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Sky: star field + a few shooting stars. Pure CSS, fixed behind everything.
+ * ------------------------------------------------------------------------- */
+.sky {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 70% 50% at 15% 0%, var(--nebula-a), transparent 70%),
+    radial-gradient(ellipse 60% 45% at 95% 35%, var(--nebula-b), transparent 70%), var(--bg);
+}
+
+.sky::before,
+.sky::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-repeat: repeat;
+}
+
+.sky::before {
+  background-image:
+    radial-gradient(1px 1px at 23px 41px, var(--star) 50%, transparent 51%),
+    radial-gradient(1px 1px at 97px 163px, var(--star) 50%, transparent 51%),
+    radial-gradient(1px 1px at 181px 67px, var(--star) 50%, transparent 51%),
+    radial-gradient(1px 1px at 211px 199px, var(--star) 50%, transparent 51%),
+    radial-gradient(1px 1px at 57px 227px, var(--star) 50%, transparent 51%),
+    radial-gradient(1px 1px at 139px 11px, var(--star) 50%, transparent 51%);
+  background-size: 240px 240px;
+  opacity: 0.55;
+}
+
+.sky::after {
+  background-image:
+    radial-gradient(1.5px 1.5px at 71px 83px, var(--star) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 311px 257px, var(--star) 50%, transparent 51%),
+    radial-gradient(2px 2px at 193px 331px, var(--star) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 367px 29px, var(--star) 50%, transparent 51%);
+  background-size: 390px 390px;
+  animation: twinkle 6s ease-in-out infinite alternate;
+}
+
+@keyframes twinkle {
+  from {
+    opacity: 0.35;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
+
+.shooting-star {
+  position: absolute;
+  width: 9rem;
+  height: 1px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, transparent, var(--shooting-star));
+  opacity: 0;
+  transform-origin: right center;
+  animation: shoot linear infinite;
+  will-change: transform, opacity;
+}
+
+.shooting-star::after {
+  content: '';
+  position: absolute;
+  right: -1px;
+  top: -1.5px;
+  width: 4px;
+  height: 4px;
+  border-radius: 9999px;
+  background: var(--shooting-star);
+  box-shadow: 0 0 8px 2px var(--shooting-star);
+}
+
+/* Each star: position, angle, cycle length and start delay. */
+.shooting-star:nth-child(1) {
+  top: 6%;
+  left: 78%;
+  --angle: 145deg;
+  animation-duration: 9s;
+  animation-delay: 1s;
+}
+.shooting-star:nth-child(2) {
+  top: 18%;
+  left: 42%;
+  --angle: 150deg;
+  animation-duration: 13s;
+  animation-delay: 4.5s;
+}
+.shooting-star:nth-child(3) {
+  top: 4%;
+  left: 20%;
+  --angle: 140deg;
+  animation-duration: 11s;
+  animation-delay: 7s;
+}
+.shooting-star:nth-child(4) {
+  top: 38%;
+  left: 92%;
+  --angle: 155deg;
+  animation-duration: 15s;
+  animation-delay: 2.5s;
+}
+.shooting-star:nth-child(5) {
+  top: 55%;
+  left: 60%;
+  --angle: 148deg;
+  animation-duration: 17s;
+  animation-delay: 10s;
+}
+.shooting-star:nth-child(6) {
+  top: 12%;
+  left: 105%;
+  --angle: 152deg;
+  animation-duration: 19s;
+  animation-delay: 13s;
+}
+
+@keyframes shoot {
+  0% {
+    opacity: 0;
+    transform: rotate(var(--angle)) translateX(0);
+  }
+  2% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0;
+    transform: rotate(var(--angle)) translateX(45vmax);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(var(--angle)) translateX(45vmax);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Skeletons and image placeholders
+ * ------------------------------------------------------------------------- */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--skeleton) 25%,
+    color-mix(in srgb, var(--skeleton) 45%, transparent) 50%,
+    var(--skeleton) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.6s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: -100% 0;
+  }
+}
+
+.placeholder-blur {
+  filter: blur(14px);
+  transform: scale(1.15);
+}
+
+/* Offscreen gallery rows skip layout/paint until scrolled near. */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 12rem;
+}
+
+/* ---------------------------------------------------------------------------
+ * Reduced motion: no shooting stars, twinkle, shimmer or long transitions.
+ * ------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .shooting-star {
+    display: none;
+  }
+  .sky::after,
+  .skeleton,
+  .boot-logo {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * No-JavaScript fallback (content comes from the build step).
+ * ------------------------------------------------------------------------- */
+@media (scripting: none) {
+  .boot {
+    display: none;
+  }
+}
+
+.noscript {
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 3rem 1.25rem;
+  line-height: 1.6;
+  color: var(--fg-muted);
+}
+
+.noscript h1 {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--fg);
+}
+
+.noscript p,
+.noscript ul {
+  margin-bottom: 1rem;
+}
+
+.noscript a {
+  color: var(--accent);
+  text-decoration: underline;
+}

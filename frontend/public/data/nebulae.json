@@ -1,0 +1,331 @@
+{
+  "nebulae": [
+    {
+      "id": "orion",
+      "name": "Orion Nebula",
+      "catalog": "M42",
+      "nickname": "Great Orion Nebula",
+      "type": "Emission",
+      "constellation": "Orion",
+      "distance": 1300,
+      "size": "about 25 light-years across",
+      "description": "The closest large region of massive star formation to Earth, the Orion Nebula is a vast stellar nursery where thousands of young stars are emerging from clouds of gas and dust. Its glow comes from hydrogen and other gases lit up by the intense radiation of newborn stars.",
+      "facts": [
+        "It is one of the few nebulae visible to the naked eye: look for the fuzzy \"star\" in the middle of Orion's Sword.",
+        "At its heart sits the Trapezium, a tight group of hot young stars whose ultraviolet light makes the surrounding gas glow.",
+        "More than 150 protoplanetary discs have been found here: young planetary systems still in the making."
+      ],
+      "image_path": "images/nebulae/orion",
+      "image_alt": "Hubble mosaic of the Orion Nebula: glowing clouds of red, orange and blue-green gas around a bright, crowded core of young stars.",
+      "credits": "NASA, ESA, M. Robberto (STScI/ESA) and the Hubble Space Telescope Orion Treasury Project Team",
+      "source_url": "https://cdn.esahubble.org/archives/images/publicationjpg/heic0601a.jpg",
+      "source_page": "https://esahubble.org/images/heic0601a/"
+    },
+    {
+      "id": "carina",
+      "name": "Carina Nebula",
+      "catalog": "NGC 3372",
+      "nickname": "Great Nebula in Carina",
+      "type": "Emission",
+      "constellation": "Carina",
+      "distance": 8500,
+      "size": "about 460 light-years across",
+      "description": "One of the largest and brightest nebulae in our galaxy, the Carina Nebula dwarfs the Orion Nebula. Fierce winds and ultraviolet radiation from some of the most massive stars known are carving its clouds into pillars and ridges, triggering new generations of star birth.",
+      "facts": [
+        "It is home to Eta Carinae, an unstable star system whose main star is estimated at around 100 times the mass of the Sun.",
+        "During its \"Great Eruption\" in the 1840s, Eta Carinae briefly became one of the brightest stars in the night sky.",
+        "It lies deep in the southern sky and is best seen from the Southern Hemisphere."
+      ],
+      "image_path": "images/nebulae/carina",
+      "image_alt": "Wide Hubble panorama of the Carina Nebula: towering orange and brown ridges of dust and gas against glowing blue clouds, sprinkled with bright stars.",
+      "credits": "NASA, ESA, N. Smith (University of California, Berkeley) and the Hubble Heritage Team (STScI/AURA)",
+      "source_url": "https://cdn.esahubble.org/archives/images/publicationjpg/heic0707a.jpg",
+      "source_page": "https://esahubble.org/images/heic0707a/"
+    },
+    {
+      "id": "eagle",
+      "name": "Eagle Nebula",
+      "catalog": "M16",
+      "nickname": "Pillars of Creation",
+      "type": "Emission",
+      "constellation": "Serpens",
+      "distance": 5700,
+      "size": "about 70 × 55 light-years",
+      "description": "The Eagle Nebula surrounds a young cluster of hot stars whose light and winds are eroding the dense clouds around them. Its most famous feature, the Pillars of Creation, are towering columns of cold gas and dust in which new stars are still forming.",
+      "facts": [
+        "Hubble's 1995 image of the Pillars of Creation became one of the most famous astronomical photographs ever taken.",
+        "The tallest pillar is about four light-years long.",
+        "The nebula's star cluster is young: only about one to two million years old."
+      ],
+      "image_path": "images/nebulae/eagle",
+      "image_alt": "The Pillars of Creation: three tall, dark columns of gas and dust rising through a glowing blue-green haze, their tips lit by nearby young stars.",
+      "credits": "NASA, ESA/Hubble and the Hubble Heritage Team",
+      "source_url": "https://cdn.esahubble.org/archives/images/publicationjpg/heic1501a.jpg",
+      "source_page": "https://esahubble.org/images/heic1501a/"
+    },
+    {
+      "id": "helix",
+      "name": "Helix Nebula",
+      "catalog": "NGC 7293",
+      "nickname": "Eye of God",
+      "type": "Planetary",
+      "constellation": "Aquarius",
+      "distance": 650,
+      "size": "about 2.5 light-years across",
+      "description": "The Helix Nebula is one of the closest planetary nebulae to Earth: the glowing outer layers of a Sun-like star that ran out of fuel. What is left of the star, a hot white dwarf, floods the expelled gas with ultraviolet light and makes it shine.",
+      "facts": [
+        "Its striking resemblance to a giant eye has earned it the nickname \"Eye of God\".",
+        "Based on how fast it is expanding, the nebula is thought to be only about 10,000 years old.",
+        "Our Sun is expected to shed its outer layers in a similar way, billions of years from now."
+      ],
+      "image_path": "images/nebulae/helix",
+      "image_alt": "The Helix Nebula: a glowing ring of red and blue gas around a faint central star, resembling a giant eye, in a field of stars.",
+      "credits": "ESO",
+      "source_url": "https://cdn.eso.org/images/publicationjpg/eso0907a.jpg",
+      "source_page": "https://www.eso.org/public/images/eso0907a/"
+    },
+    {
+      "id": "crab",
+      "name": "Crab Nebula",
+      "catalog": "M1",
+      "type": "Supernova remnant",
+      "constellation": "Taurus",
+      "distance": 6500,
+      "size": "about 11 light-years across",
+      "description": "The Crab Nebula is the expanding wreckage of a star that exploded as a supernova. Light from the blast reached Earth in 1054, when astronomers in China and Japan recorded a \"guest star\" bright enough to be seen in daylight for weeks.",
+      "facts": [
+        "At its centre is the Crab Pulsar, a city-sized neutron star that spins about 30 times every second.",
+        "The nebula is still expanding at roughly 1,500 kilometres per second.",
+        "It is the very first entry in Charles Messier's famous catalogue: M1."
+      ],
+      "image_path": "images/nebulae/crab",
+      "image_alt": "The Crab Nebula: an oval cloud of tangled orange and red filaments surrounding a pale blue-white glow, the debris of an exploded star.",
+      "credits": "NASA, ESA and Allison Loll/Jeff Hester (Arizona State University). Acknowledgement: Davide De Martin (ESA/Hubble)",
+      "source_url": "https://cdn.esahubble.org/archives/images/large/heic0515a.jpg",
+      "source_page": "https://esahubble.org/images/heic0515a/"
+    },
+    {
+      "id": "tarantula",
+      "name": "Tarantula Nebula",
+      "catalog": "30 Doradus",
+      "type": "Emission",
+      "constellation": "Dorado",
+      "distance": 160000,
+      "size": "more than 1,000 light-years across",
+      "description": "Lying in the Large Magellanic Cloud, a small galaxy orbiting the Milky Way, the Tarantula Nebula is the most active star-forming region known in our Local Group of galaxies. Its long, glowing filaments reminded astronomers of a spider's legs.",
+      "facts": [
+        "Its central star cluster, R136, contains some of the most massive stars ever found.",
+        "If it were as close to us as the Orion Nebula, it would be bright enough to cast shadows on Earth.",
+        "Supernova 1987A, the closest supernova seen since the invention of the telescope, exploded on its outskirts."
+      ],
+      "image_path": "images/nebulae/tarantula",
+      "image_alt": "Webb infrared view of the Tarantula Nebula: a cavity of pale blue young stars at the centre, surrounded by wispy orange and brown filaments of gas and dust.",
+      "credits": "NASA, ESA, CSA and STScI",
+      "source_url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2212a.jpg",
+      "source_page": "https://esawebb.org/images/weic2212a/"
+    },
+    {
+      "id": "butterfly",
+      "name": "Butterfly Nebula",
+      "catalog": "NGC 6302",
+      "nickname": "Bug Nebula",
+      "type": "Planetary",
+      "constellation": "Scorpius",
+      "distance": 3400,
+      "size": "more than 3 light-years across",
+      "description": "The Butterfly Nebula is a planetary nebula whose \"wings\" are streams of gas racing away from a dying star. A thick, dark ring of dust around the star pinches the outflow into this striking hourglass shape.",
+      "facts": [
+        "Its central star is one of the hottest known, with a surface temperature estimated at around 200,000 degrees.",
+        "Gas in the wings is moving at more than 950,000 kilometres per hour.",
+        "The dying star at its heart was once about five times the mass of the Sun."
+      ],
+      "image_path": "images/nebulae/butterfly",
+      "image_alt": "The Butterfly Nebula: two glowing, wing-shaped lobes of gas in rust, white and blue spreading out from a dark, dusty centre.",
+      "credits": "NASA, ESA and the Hubble SM4 ERO Team",
+      "source_url": "https://cdn.esahubble.org/archives/images/publicationjpg/heic0910h.jpg",
+      "source_page": "https://esahubble.org/images/heic0910h/"
+    },
+    {
+      "id": "lagoon",
+      "name": "Lagoon Nebula",
+      "catalog": "M8",
+      "type": "Emission",
+      "constellation": "Sagittarius",
+      "distance": 4100,
+      "size": "about 110 × 50 light-years",
+      "description": "The Lagoon Nebula is a giant stellar nursery named for the dark lane of dust that cuts through its glowing clouds like a channel of water. It is one of only two star-forming nebulae faintly visible to the naked eye from mid-northern latitudes.",
+      "facts": [
+        "Giovanni Battista Hodierna catalogued it in 1654.",
+        "Near its centre is the Hourglass Nebula, a bright region shaped by the radiation of a young, massive star.",
+        "Hubble's 28th-anniversary image in 2018 zoomed in on a region only about four light-years across near its heart."
+      ],
+      "image_path": "images/nebulae/lagoon",
+      "image_alt": "Hubble close-up of the heart of the Lagoon Nebula: billowing clouds of orange, pink and blue gas shaped by a bright young star.",
+      "credits": "NASA, ESA, STScI",
+      "source_url": "https://cdn.esahubble.org/archives/images/publicationjpg/heic1808a.jpg",
+      "source_page": "https://esahubble.org/images/heic1808a/"
+    },
+    {
+      "id": "ring",
+      "name": "Ring Nebula",
+      "catalog": "M57",
+      "type": "Planetary",
+      "constellation": "Lyra",
+      "distance": 2600,
+      "size": "about 1 light-year across",
+      "description": "The Ring Nebula is a shell of glowing gas cast off by a dying star, seen almost end-on so that it looks like a smoke ring. In Hubble's colours, blue marks helium near the hot centre, green marks oxygen, and red shows nitrogen and hydrogen in the cooler outer ring.",
+      "facts": [
+        "Charles Messier and Antoine Darquier de Pellepoix both found it in 1779.",
+        "At its centre is a white dwarf, the exposed core of the star that made the nebula.",
+        "It is bright enough to spot with a small backyard telescope."
+      ],
+      "image_path": "images/nebulae/ring",
+      "image_alt": "The Ring Nebula: a glowing oval ring with an orange-red outer edge and a blue-green interior, with a faint white dwarf at its centre.",
+      "credits": "NASA, ESA and C. Robert O'Dell (Vanderbilt University)",
+      "source_url": "https://cdn.esahubble.org/archives/images/large/heic1310a.jpg",
+      "source_page": "https://esahubble.org/images/heic1310a/"
+    },
+    {
+      "id": "veil",
+      "name": "Veil Nebula",
+      "catalog": "NGC 6960",
+      "nickname": "Cygnus Loop",
+      "type": "Supernova remnant",
+      "constellation": "Cygnus",
+      "distance": 2400,
+      "size": "about 130 light-years across",
+      "description": "The Veil Nebula is the delicate, lacy remains of a massive star that exploded between 10,000 and 20,000 years ago. The blast wave is still sweeping through space, heating the surrounding gas into glowing filaments.",
+      "facts": [
+        "The whole loop spans about three degrees of sky: six times the width of the full Moon.",
+        "The star that exploded was around 20 times the mass of the Sun.",
+        "William Herschel discovered it in 1784."
+      ],
+      "image_path": "images/nebulae/veil",
+      "image_alt": "A section of the Veil Nebula: delicate, twisted filaments of red, blue and green gas streaking across a dense field of stars.",
+      "credits": "NASA, ESA and the Hubble Heritage Team",
+      "source_url": "https://cdn.esahubble.org/archives/images/publicationjpg/heic1520a.jpg",
+      "source_page": "https://esahubble.org/images/heic1520a/"
+    },
+    {
+      "id": "heart",
+      "name": "Heart Nebula",
+      "catalog": "IC 1805",
+      "type": "Emission",
+      "constellation": "Cassiopeia",
+      "distance": 7500,
+      "size": "about 330 light-years across",
+      "description": "Named for its shape, the Heart Nebula is a huge cloud of glowing hydrogen in Cassiopeia. Radiation and winds from a cluster of massive young stars at its centre are hollowing out the gas and sculpting its dark edges.",
+      "facts": [
+        "Its central cluster includes a few stars nearly 50 times the mass of the Sun.",
+        "It sits next to the Soul Nebula; together they are often called the Heart and Soul.",
+        "William Herschel discovered its brightest knot in 1787."
+      ],
+      "image_path": "images/nebulae/heart",
+      "image_alt": "The central region of the Heart Nebula: glowing clouds of gas framing a cavity blown open by a cluster of bright young stars.",
+      "credits": "T.A. Rector (University of Alaska Anchorage) and H. Schweiker (WIYN and NOIRLab/NSF/AURA)",
+      "source_url": "https://noirlab.edu/public/media/archives/images/large/noao-ic1805.jpg",
+      "source_page": "https://noirlab.edu/public/images/noao-ic1805/"
+    },
+    {
+      "id": "trifid",
+      "name": "Trifid Nebula",
+      "catalog": "M20",
+      "type": "Emission",
+      "constellation": "Sagittarius",
+      "distance": 4100,
+      "size": "about 42 light-years across",
+      "description": "The Trifid Nebula is a rare combination of three kinds of nebula in one: a pink emission nebula, a blue reflection nebula, and dark lanes of dust that split it into three lobes, which is where its name comes from.",
+      "facts": [
+        "Charles Messier catalogued it in 1764.",
+        "Its brightest star is more than 20 times the mass of the Sun.",
+        "Infrared telescopes have found dozens of embryonic stars hidden inside its dusty clouds."
+      ],
+      "image_path": "images/nebulae/trifid",
+      "image_alt": "The Trifid Nebula: a pink glowing cloud split into lobes by dark dust lanes, beside a blue reflection nebula, in a dense star field.",
+      "credits": "ESO",
+      "source_url": "https://cdn.eso.org/images/publicationjpg/eso0930a.jpg",
+      "source_page": "https://www.eso.org/public/images/eso0930a/"
+    },
+    {
+      "id": "omega",
+      "name": "Omega Nebula",
+      "catalog": "M17",
+      "nickname": "Swan Nebula",
+      "type": "Emission",
+      "constellation": "Sagittarius",
+      "distance": 5500,
+      "size": "about 15 light-years across",
+      "description": "The Omega Nebula is one of the brightest and most massive star-forming regions in our galaxy. Hot young stars inside it make its hydrogen clouds glow, and its shape has earned it many nicknames, including the Swan, the Checkmark and the Horseshoe.",
+      "facts": [
+        "Philippe Loys de Chéseaux discovered it in 1745.",
+        "Its embedded star cluster is one of the youngest known, at around one million years old.",
+        "It holds roughly 800 stars, including nine of the hottest, most massive O-type stars."
+      ],
+      "image_path": "images/nebulae/omega",
+      "image_alt": "The Omega Nebula: bright pink and white clouds of glowing gas streaked with dark dust, surrounded by stars.",
+      "credits": "ESO",
+      "source_url": "https://cdn.eso.org/images/large/eso0925a.jpg",
+      "source_page": "https://www.eso.org/public/images/eso0925a/"
+    },
+    {
+      "id": "north-america",
+      "name": "North America Nebula",
+      "catalog": "NGC 7000",
+      "type": "Emission",
+      "constellation": "Cygnus",
+      "distance": 2600,
+      "size": "about 90 light-years from north to south",
+      "description": "Seen through a telescope, this glowing cloud of hydrogen in Cygnus has an outline remarkably like the continent of North America. Dark clouds of dust in front of it draw the \"coastlines\", including the \"Gulf of Mexico\".",
+      "facts": [
+        "The bright ridge along its \"Mexico\" and \"Central America\" is called the Cygnus Wall, a hotbed of star formation.",
+        "It covers an area of sky more than ten times that of the full Moon.",
+        "Astrophotographer Max Wolf gave it its name in 1890."
+      ],
+      "image_path": "images/nebulae/north-america",
+      "image_alt": "Part of the North America Nebula: glowing clouds of gas crossed by dark, winding lanes of dust.",
+      "credits": "T.A. Rector (University of Alaska Anchorage) and NOIRLab/NSF/AURA",
+      "source_url": "https://noirlab.edu/public/media/archives/images/large/noao-ngc7000east.jpg",
+      "source_page": "https://noirlab.edu/public/images/noao-ngc7000east/"
+    },
+    {
+      "id": "rosette",
+      "name": "Rosette Nebula",
+      "catalog": "NGC 2237",
+      "type": "Emission",
+      "constellation": "Monoceros",
+      "distance": 5200,
+      "size": "about 130 light-years across",
+      "description": "The Rosette Nebula is a giant, flower-shaped cloud of gas in Monoceros. At its centre, the young star cluster NGC 2244 has blown out a hollow cavity with its fierce winds, leaving glowing petals of gas around it.",
+      "facts": [
+        "Around 2,500 young stars are forming in and around the complex.",
+        "The central cluster was first spotted by John Flamsteed around 1690.",
+        "In 2019 it became Oklahoma's official state astronomical object."
+      ],
+      "image_path": "images/nebulae/rosette",
+      "image_alt": "The Rosette Nebula: a round, flower-like cloud of glowing gas with a hollow centre containing a cluster of bright stars.",
+      "credits": "N.A. Sharp/NOIRLab/NSF/AURA",
+      "source_url": "https://noirlab.edu/public/media/archives/images/large/noao-rosette.jpg",
+      "source_page": "https://noirlab.edu/public/images/noao-rosette/"
+    },
+    {
+      "id": "crescent",
+      "name": "Crescent Nebula",
+      "catalog": "NGC 6888",
+      "type": "Emission",
+      "constellation": "Cygnus",
+      "distance": 5000,
+      "size": "about 25 × 17 light-years",
+      "description": "The Crescent Nebula is a shell of gas blown by the powerful winds of WR 136, a rare and short-lived Wolf–Rayet star. The star shed its outer layers as a red giant; now its fierce winds are ploughing into that material and making it glow.",
+      "facts": [
+        "William Herschel discovered it in 1792.",
+        "The nebula is estimated to be around 250,000 years old.",
+        "Wolf–Rayet stars are among the hottest and most luminous stars known."
+      ],
+      "image_path": "images/nebulae/crescent",
+      "image_alt": "The Crescent Nebula: a glowing, egg-shaped shell of filament-like gas around a bright central star.",
+      "credits": "T.A. Rector (NRAO/AUI/NSF and NOIRLab/NSF/AURA)",
+      "source_url": "https://noirlab.edu/public/media/archives/images/large/noao-04494.jpg",
+      "source_page": "https://noirlab.edu/public/images/noao-04494/"
+    }
+  ]
+}

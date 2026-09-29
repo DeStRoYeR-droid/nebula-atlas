@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build output and caches
+frontend/dist/
+.vite/
+.pytest_cache/
+.ruff_cache/
+coverage/
+*.log
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Full-resolution source images: large, and only needed to regenerate the
+# web-sized versions in frontend/public/images (which ARE committed).
+media/originals/*
+!media/originals/.gitkeep
+
+# Temporary files written by the admin while saving
+frontend/public/data/.nebulae-*.json
+media/originals/.*-*
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+*.swp

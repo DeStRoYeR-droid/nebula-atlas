@@ -1,0 +1,44 @@
+/*
+ * Tailwind source for the admin UI. Build with (from frontend/, which has the
+ * Tailwind toolchain installed):
+ *   npm run build:admin
+ * which writes backend/app/admin/admin.css. The built file is committed so the
+ * API runs without Node.
+ */
+@import "../../frontend/node_modules/tailwindcss/index.css" source(none);
+@source "../app/admin";
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-lg bg-sky-400 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-sky-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300 disabled:opacity-60;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 rounded-lg border border-white/15 bg-white/5 px-3 py-1.5 text-sm hover:bg-white/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300 disabled:opacity-60;
+  }
+  .btn-danger {
+    @apply inline-flex items-center gap-2 rounded-lg border border-red-400/30 px-3 py-1.5 text-sm text-red-200 hover:bg-red-500/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-300;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center rounded-lg px-3 py-1.5 text-sm text-slate-300 hover:bg-white/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300;
+  }
+  .field {
+    @apply flex flex-col gap-1 text-sm;
+  }
+  .field > span {
+    @apply font-medium text-slate-200;
+  }
+  .field abbr {
+    @apply text-sky-300 no-underline;
+  }
+  .field small {
+    @apply text-xs text-slate-400;
+  }
+  .field input:not([type="file"]),
+  .field select,
+  .field textarea {
+    @apply rounded-lg border border-white/15 bg-slate-950 px-3 py-2 text-slate-100 placeholder:text-slate-500 focus:border-sky-400 focus:outline-2 focus:outline-sky-400/40;
+  }
+  .field input[type="file"] {
+    @apply text-sm text-slate-300 file:mr-3 file:rounded-md file:border-0 file:bg-white/10 file:px-3 file:py-1.5 file:text-slate-100;
+  }
+}

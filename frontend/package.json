@@ -1,0 +1,38 @@
+{
+  "name": "nebula-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An interactive atlas of the universe's most beautiful nebulae.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build:admin": "tailwindcss -i ../backend/admin-src/admin.css -o ../backend/app/admin/admin.css --minify"
+  },
+  "dependencies": {
+    "motion": "13.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "7.3.1",
+    "@fortawesome/free-solid-svg-icons": "7.3.1",
+    "@tailwindcss/cli": "4.3.3",
+    "@tailwindcss/vite": "4.3.3",
+    "@testing-library/dom": "10.4.2",
+    "@testing-library/jest-dom": "7.0.1",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.7",
+    "@vitejs/plugin-react": "6.1.1",
+    "jsdom": "30.1.1",
+    "tailwindcss": "4.3.3",
+    "vite": "8.3.1",
+    "vitest": "5.0.2"
+  }
+}

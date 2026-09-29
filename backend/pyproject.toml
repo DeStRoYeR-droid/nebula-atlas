@@ -1,0 +1,9 @@
+[project]
+name = "nebula-atlas-admin"
+version = "1.0.0"
+description = "Local FastAPI admin for the Nebula Atlas data file"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
